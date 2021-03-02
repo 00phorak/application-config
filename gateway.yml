@@ -11,6 +11,6 @@ spring:
         gateway:
             routes:  
             - id: ecg
-              uri: localhost:8090
+              uri: http://localhost:8090
               predicates:
                 - Path=/ecg/*
