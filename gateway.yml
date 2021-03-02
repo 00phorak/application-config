@@ -10,7 +10,7 @@ spring:
     cloud:
         gateway:
             routes:  
-            - id: method_route
-              uri: https://example.org
+            - id: ecg
+              uri: localhost:8090
               predicates:
               - Method=GET,POST
