@@ -12,5 +12,3 @@ spring:
             routes:  
             - id: ecg
               uri: localhost:8090
-              predicates:
-              - Method=GET,POST
