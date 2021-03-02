@@ -13,4 +13,4 @@ spring:
             - id: ecg
               uri: localhost:8090
               predicates:
-                - Path=/ecg/
+                - Path=/ecg/*
